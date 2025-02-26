@@ -11,15 +11,15 @@ const Header = () => {
         <Link href="/">tochy0x</Link>
       </h1>
       <div className="flex items-center gap-4">
-        <a href="/mintSPL" className="text-xl underline underline-offset-1">
-          Mint
-        </a>
-        <a
+        <Link href="/mintSPL" className="text-xl underline underline-offset-1">
+          Mint Token
+        </Link>
+        <Link
           href="/SendSolAndSPL"
           className="text-xl underline underline-offset-1"
         >
           Send
-        </a>
+        </Link>
         <WalletMultiButton className="p-0" />
       </div>
     </div>
